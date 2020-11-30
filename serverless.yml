@@ -50,7 +50,7 @@ package:
 
 functions:
   hello:
-    handler: AwsDotnetCsharp::AwsDotnetCsharp.Handler::HelloWorld
+    handler: AwsDotnetCsharp::AwsDotnetCsharp.Src.Handlers.Handler::HelloWorld
 
     # you can add packaging information here
     package:
@@ -67,7 +67,7 @@ functions:
           path: hello
           method: get
   getquerystring:
-    handler: AwsDotnetCsharp::AwsDotnetCsharp.Handler::GetQuerystring
+    handler: AwsDotnetCsharp::AwsDotnetCsharp.Src.Handlers.Handler::GetQuerystring
 
     # you can add packaging information here
     package:
