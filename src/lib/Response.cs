@@ -1,13 +1,12 @@
-using System;
 using System.Collections.Generic;
 using System.Net;
-using Amazon.Lambda.Core;
 using Amazon.Lambda.APIGatewayEvents;
 using Newtonsoft.Json;
 
-namespace AwsDotnetCsharp.Src.Lib 
+namespace AwsDotnetCsharp.Src.Lib
 {
-  public class Response {
+  public class Response
+  {
     static public APIGatewayProxyResponse CreateResponse(IDictionary<string, string> result)
     {
       int statusCode = (result != null) ?
