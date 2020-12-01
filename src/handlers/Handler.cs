@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.APIGatewayEvents;
 
-using AwsDotnetCsharp.Src.Lib.Response;
+using static AwsDotnetCsharp.Src.Lib.Response;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(
